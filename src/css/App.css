@@ -1,0 +1,51 @@
+@import url('https://fonts.googlapis.com/css?family=Exo');
+
+body {
+  background-color: #343a40;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h3, h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+p {
+  margin: 0px;
+}
+
+.App {
+  background-color: #343a40;
+  font-size: 18px;
+  /* font-family: Karla, sans-serif; */
+  font-family: 'Exo', sans-serif;
+  color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.App-page {
+  min-height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  font-size: 80px;
+  color: #ff9100;
+}
+
+.shadow {
+  box-shadow: 0 10px 30px -10px rgba(2,12,27,0.7);
+}
+
+.shade {
+  /* box-shadow: -8.49px 8.49px 0px 0px rgba(0, 0, 0, 0.6), 0 0 0 rgba(255, 255, 255, 0.6); */
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.8);
+}

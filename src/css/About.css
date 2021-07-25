@@ -1,0 +1,137 @@
+h2 {
+  padding-top: 50px;
+  font-weight: 600;
+}
+  
+hr {
+  width: 80%;
+  height: 1px;
+  border: 0;
+  background-image: linear-gradient(to right, rgba(108, 117, 125, 0), rgba(108, 117, 125, 0.75), rgba(108, 117, 125, 0));
+}
+  
+.logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.skill {
+  margin-bottom: 15px;
+}
+
+.skill-name {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.job-title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+
+.badge {
+  font-size: 18px;
+  padding: 7px 18px;
+  margin-right: 10px;
+}
+
+.jobs {
+  padding-bottom: 25px;
+}
+  
+.skillset, .work {
+  padding-top: 20px;
+}
+  
+.job {
+  margin-left: 125px;
+}
+  
+.job-company {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+  
+.skill-proficiency, .job-description, .date {
+  font-size: 17px;
+  color: #f8f9fabd;
+}
+
+.right {
+  float: right;
+}
+
+.italics {
+  font-style: italic;
+}
+  
+.project {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 65% 5% 30%;
+  align-items: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .project {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+  
+.project-image {
+  padding: 15px;
+  /* flex: 0 0 70%; */
+  /* max-width: 70%; */
+}
+
+.project-title {
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: white;
+}
+  
+.project-description {
+  padding: 30px;
+  /* flex: 0 0 30%; */
+  /* max-width: 30%; */
+  background-color: #6c757d;
+  color: #f8f9fac5;
+  border-radius: 25px;
+  margin: 15px;
+  height: min-content;
+}
+
+.badges {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.badge {
+  border-radius: 8px;
+  padding: 7px 18px;
+  border: 1px solid #50a9d1;
+  margin-right: 10px;
+  width: auto;
+  background-color: #33373a;
+}
+  
+.carousel-caption {
+  color: #ff9100;
+  top: 30px;
+  bottom: auto;
+}
+  
+.other-projects {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
