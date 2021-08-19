@@ -1,5 +1,4 @@
 import React from 'react';
-import { Badge } from 'react-bootstrap';
 import Skill from './components/Skill'
 import Job from './components/Job';
 import ProjectCarousel from './components/ProjectCarousel';
@@ -18,12 +17,12 @@ class About extends React.Component {
                 <div id="skills">
                     <h2>Technical Skills</h2>
                     <div className="skillset">
-                        <Skill name="Java" proficiency="Intermediate" level={85}/>
-                        <Skill name="Python" proficiency="Intermediate" level={85}/>
-                        <Skill name="Javascript (React, Express, Node, Redux, jQuery)" proficiency="Intermediate" level={85}/>
-                        <Skill name="Databases (PostgreSQL, MongoDB, Neo4j)" proficiency="Intermediate" level={85}/>
-                        <Skill name="HTML/CSS" proficiency="Intermediate" level={80}/>
-                        <Skill name="Version Control (Git, Mercurial)" proficiency="Intermediate" level={70}/>
+                        <Skill name="Java" proficiency="Proficient" level={85}/>
+                        <Skill name="Python" proficiency="Proficient" level={85}/>
+                        <Skill name="Javascript" sub=" (React, Express, Node, Redux, jQuery)" proficiency="Proficient" level={85}/>
+                        <Skill name="Databases" sub=" (PostgreSQL, MongoDB, Neo4j)" proficiency="Proficient" level={85}/>
+                        <Skill name="HTML/CSS" proficiency="Proficient" level={80}/>
+                        <Skill name="Version Control" sub=" (Git, Mercurial)" proficiency="Proficient" level={70}/>
                         <Skill name="Linux" proficiency="Familiar" level={60}/>
                         <Skill name="C" proficiency="Familiar" level={60}/>
                         <Skill name="Jenkins (CI)" proficiency="Familiar" level={40}/>

@@ -54,7 +54,7 @@ hr {
   margin-bottom: 7px;
 }
   
-.skill-proficiency, .job-description, .date {
+.skill-proficiency, .job-description, .date, .skill-sub {
   font-size: 17px;
   color: #f8f9fabd;
 }

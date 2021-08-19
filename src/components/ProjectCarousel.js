@@ -4,6 +4,7 @@ import calculator from '../images/calculator.png';
 import ping from '../images/ping.gif';
 import spikes from '../images/spikes.gif';
 import paint from '../images/paint.gif';
+import projectile from '../images/projectile.gif';
 
 class ProjectCarousel extends React.Component {
     render() {
@@ -42,6 +43,15 @@ class ProjectCarousel extends React.Component {
                             className="d-block w-100 img-hover"
                             src={spikes}
                             alt="Spikes"
+                        />
+                    </a>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <a href="https://github.com/William010x/ProjectileWare" target="_blank" rel="noreferrer">
+                        <img
+                            className="d-block w-100 img-hover"
+                            src={projectile}
+                            alt="ProjectileWare"
                         />
                     </a>
                 </Carousel.Item>
