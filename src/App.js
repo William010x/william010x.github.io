@@ -1,11 +1,12 @@
 import React from 'react';
 import './css/App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import NoMatch from './NoMatch';
+import { BrowserRouter as Router } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import { Container } from 'react-bootstrap';
+import Home from './Home';
+import AboutMe from './AboutMe';
+import Skills from './Skills';
+import Jobs from './Jobs';
+import Projects from './Projects';
 
 class App extends React.Component {
   render () {
@@ -13,16 +14,13 @@ class App extends React.Component {
       <div className="App">
           <Router>
             <NavBar/>
-            <Container className="App-page">
-              {/* <Home/> */}
-              {/* <About/> */}
-              <Switch>
-                <Route exact path="/" component={Home}/>
-                <Route path="/about" component={About}/>
-                {/* <Route path="/contact" component={Contact}/> */}
-                <Route component={NoMatch}/>
-              </Switch>
-            </Container>
+            <div className="App-page">
+              <Home/>
+              <AboutMe/>
+              <Skills/>
+              <Jobs/>
+              <Projects/>
+            </div>
           </Router>
       </div>
     );

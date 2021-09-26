@@ -1,5 +1,6 @@
-.home {   
-  padding: 100px 0px;
+#home {
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
 
 .intro {
@@ -141,7 +142,6 @@
 .about-section {
   background-color: #015871;
   width: 100%;
-  position: absolute;
   left: 0;
   margin-top: 25px;
 }
@@ -150,6 +150,7 @@
   display: grid;
   grid-template-columns: 1fr 40%;
   gap: 40px;
+  padding-bottom: 70px;
 }
 
 .rounded-corners {
