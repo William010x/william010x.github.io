@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa247cb9.chunk.css",
-    "main.js": "/static/js/main.a41f47b8.chunk.js",
-    "main.js.map": "/static/js/main.a41f47b8.chunk.js.map",
+    "main.css": "/static/css/main.3ecb8f8f.chunk.css",
+    "main.js": "/static/js/main.705b73bd.chunk.js",
+    "main.js.map": "/static/js/main.705b73bd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b87d8c17.js",
     "runtime-main.js.map": "/static/js/runtime-main.b87d8c17.js.map",
-    "static/js/2.31a2b22c.chunk.js": "/static/js/2.31a2b22c.chunk.js",
-    "static/js/2.31a2b22c.chunk.js.map": "/static/js/2.31a2b22c.chunk.js.map",
+    "static/js/2.72ade868.chunk.js": "/static/js/2.72ade868.chunk.js",
+    "static/js/2.72ade868.chunk.js.map": "/static/js/2.72ade868.chunk.js.map",
     "static/js/3.c7715df5.chunk.js": "/static/js/3.c7715df5.chunk.js",
     "static/js/3.c7715df5.chunk.js.map": "/static/js/3.c7715df5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fa247cb9.chunk.css.map": "/static/css/main.fa247cb9.chunk.css.map",
-    "static/js/2.31a2b22c.chunk.js.LICENSE.txt": "/static/js/2.31a2b22c.chunk.js.LICENSE.txt",
+    "static/css/main.3ecb8f8f.chunk.css.map": "/static/css/main.3ecb8f8f.chunk.css.map",
+    "static/js/2.72ade868.chunk.js.LICENSE.txt": "/static/js/2.72ade868.chunk.js.LICENSE.txt",
     "static/media/bookRecommender.ce4473a4.png": "/static/media/bookRecommender.ce4473a4.png",
     "static/media/calculator.71b24278.png": "/static/media/calculator.71b24278.png",
     "static/media/github.42343d4b.png": "/static/media/github.42343d4b.png",
     "static/media/java-music.7c7b7bed.png": "/static/media/java-music.7c7b7bed.png",
     "static/media/nox.aeeda29e.png": "/static/media/nox.aeeda29e.png",
     "static/media/paint.fd2530ff.gif": "/static/media/paint.fd2530ff.gif",
+    "static/media/photo.2632e579.png": "/static/media/photo.2632e579.png",
     "static/media/ping.34e50236.gif": "/static/media/ping.34e50236.gif",
     "static/media/projectile.1bc5b220.gif": "/static/media/projectile.1bc5b220.gif",
     "static/media/spikes.11ac9a34.gif": "/static/media/spikes.11ac9a34.gif",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b87d8c17.js",
-    "static/js/2.31a2b22c.chunk.js",
-    "static/css/main.fa247cb9.chunk.css",
-    "static/js/main.a41f47b8.chunk.js"
+    "static/js/2.72ade868.chunk.js",
+    "static/css/main.3ecb8f8f.chunk.css",
+    "static/js/main.705b73bd.chunk.js"
   ]
 }
