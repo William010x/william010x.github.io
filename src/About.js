@@ -2,8 +2,9 @@ import React from 'react';
 import Skill from './components/Skill'
 import Job from './components/Job';
 import ProjectCarousel from './components/ProjectCarousel';
-import Bayer from './images/bayer.png';
-import Uoft from './images/uoft.png';
+import bayer from './images/bayer.png';
+import uoft from './images/uoft.png';
+import bookRecommender from './images/bookRecommender.png';
 import nox from './images/nox.png';
 import javaBot from './images/java-music.png';
 import website from './images/website.png';
@@ -31,22 +32,23 @@ class About extends React.Component {
                 <div id="jobs">
                     <h2>Work Experience</h2>
                     <Job
-                        image={Bayer}
+                        image={bayer}
                         title="Software Developer"
-                        company="Bayer Healthcare"
-                        date="May 2020 - Present"
+                        company="Bayer"
+                        date="May 2020 - August 2021"
                         description={["Developed and maintained full-stack web application for Radiologists which processed, analyzed and rendered medical data visually",
+                            "Responsible for implementing interfaces for consumption of radiation exposure, UI enhancements, fixing bugs and database upgrades",
                             "Worked with variety of languages, frameworks, platforms and DBMS such as Java, JavaScript, Python, React, Node.js, REST API, PostgreSQL",
                             "Communicating and collaborating with teams of engineers, product managers, QA developers and clients on a daily basis",
                             "Writing confluence pages, participating in peer code reviews, preparing reports and other documentation"]}
                     />
                     <hr/>
                     <Job
-                        image={Uoft}
+                        image={uoft}
                         title="Teaching Assistant"
                         company="University of Toronto"
-                        date="Sept 2019 - April 2020"
-                        description={["TA for MAT135 Differential Calculus at the University of Toronto Mississauga",
+                        date="Sept 2019 - April 2020 | Sept 2021 - Present"
+                        description={["TA for CSC373 Algorithm Design, Analysis & Complexity and MAT135 Differential Calculus at the University of Toronto Mississauga",
                             "Provided one-on-one mentoring with students",
                             "Created lesson plans to help students understand course content for 4 tutorial sessions",
                             "Graded assessments and answered questions on class forums for 1500+ students"]}
@@ -54,6 +56,13 @@ class About extends React.Component {
                 </div>
                 <div id="projects">
                     <h2>Featured projects</h2>
+                    <Project
+                        image={bookRecommender}
+                        title="Book Recommender"
+                        description="Book Recommender takes as input your favourite book, and outputs books of similar themes, ratings, and styles. Winner of Best UI/UX Hack @ PennApps XXII"
+                        link="https://github.com/William010x/book-recommender"
+                        skills={["Flask", "Python", "React", "SCSS"]}
+                    />
                     <Project
                         image={nox}
                         title="Nox"                        
@@ -74,7 +83,7 @@ class About extends React.Component {
                         image={website}
                         title="Website"
                         description="My personal website/portfolio deployed using Github"
-                        link="https://github.com/William010x/Website"
+                        link="https://github.com/William010x/william010x.github.io"
                         skills={["React", "React-Bootstrap", "React-Router"]}
                     />
                     <h2>Other projects</h2>

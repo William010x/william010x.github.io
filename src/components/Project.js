@@ -12,7 +12,7 @@ class Project extends React.Component {
                 </div>
                 <div></div>
                 <div className="project-description shade">
-                    <p className="project-title">{this.props.title}</p>
+                    <div className="project-title">{this.props.title}</div>
                     {this.props.description}
                 </div>
                 <div className="badges">

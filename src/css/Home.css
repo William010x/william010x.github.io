@@ -1,6 +1,10 @@
 .home {   
   padding: 100px 0px;
 }
+
+.intro {
+  margin-bottom: 300px;
+}
   
 .animation {
   background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #ff9100 100%);
@@ -11,7 +15,6 @@
   height: 5%;
   width: 100%;
   position: absolute;
-  bottom: 0;
   left: 0;
   background: #015871;
 }
@@ -133,4 +136,32 @@
   -o-animation-delay: 2.5s;
   -ms-animation-delay: 2.5s;
   animation-fill-mode: forwards;
+}
+
+.about-section {
+  background-color: #015871;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  margin-top: 25px;
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  gap: 40px;
+}
+
+.rounded-corners {
+  border-radius: 30px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+b {
+  font-weight: bold;
+  color: #ff9100;
 }

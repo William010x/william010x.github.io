@@ -7,9 +7,9 @@ class Job extends React.Component {
             <div className="work">
                 <Image className="logo" src={this.props.image} roundedCircle />
                 <div className="job">
-                    <p className="job-title">{this.props.title}</p>
-                    <p className="job-company">{this.props.company}</p>
-                    <p className="date italics">{this.props.date}</p>
+                    <div className="job-title">{this.props.title}</div>
+                    <div className="job-company">{this.props.company}</div>
+                    <div className="date italics">{this.props.date}</div>
                     <br/>
                     <ul className="job-description">{this.props.description.map((point) => <li>{point}</li>)}</ul>
                 </div>
