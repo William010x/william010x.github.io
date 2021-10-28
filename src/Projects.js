@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import ProjectCarousel from './components/ProjectCarousel';
 import bookRecommender from './images/bookRecommender.png';
 import nox from './images/nox.png';
-import javaBot from './images/java-music.png';
+import lofiRadioBot from './images/lofi-radio-music.png';
 import website from './images/website.png';
 import Project from './components/Project';
 import './css/About.css';
@@ -30,11 +30,11 @@ class Projects extends React.Component {
                     />
                     <hr/>
                     <Project
-                        image={javaBot}
-                        title="JavaBot"
-                        description="A customizable Discord bot that can play music and moderate servers"
-                        link="https://github.com/William010x/JavaBot"
-                        skills={["Java", "Java Discord API"]}
+                        image={lofiRadioBot}
+                        title="Lofi Radio Bot"
+                        description="A customizable Discord bot for playing high-quality music and moderating servers"
+                        link="https://github.com/William010x/LofiRadioBot"
+                        skills={["Java", "Java Discord API", "LavaPlayer"]}
                     />
                     <hr/>
                     <Project
