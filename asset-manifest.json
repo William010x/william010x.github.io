@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.cea52404.chunk.css",
-    "main.js": "/static/js/main.a9685759.chunk.js",
-    "main.js.map": "/static/js/main.a9685759.chunk.js.map",
+    "main.js": "/static/js/main.71959148.chunk.js",
+    "main.js.map": "/static/js/main.71959148.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.990e62c4.js",
     "runtime-main.js.map": "/static/js/runtime-main.990e62c4.js.map",
     "static/js/2.d655e62f.chunk.js": "/static/js/2.d655e62f.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/bookRecommender.ce4473a4.png": "/static/media/bookRecommender.ce4473a4.png",
     "static/media/calculator.71b24278.png": "/static/media/calculator.71b24278.png",
     "static/media/github.42343d4b.png": "/static/media/github.42343d4b.png",
-    "static/media/java-music.7c7b7bed.png": "/static/media/java-music.7c7b7bed.png",
+    "static/media/lofi-radio-music.7c7b7bed.png": "/static/media/lofi-radio-music.7c7b7bed.png",
     "static/media/nox.aeeda29e.png": "/static/media/nox.aeeda29e.png",
     "static/media/paint.fd2530ff.gif": "/static/media/paint.fd2530ff.gif",
     "static/media/photo.2632e579.png": "/static/media/photo.2632e579.png",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.990e62c4.js",
     "static/js/2.d655e62f.chunk.js",
     "static/css/main.cea52404.chunk.css",
-    "static/js/main.a9685759.chunk.js"
+    "static/js/main.71959148.chunk.js"
   ]
 }
