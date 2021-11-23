@@ -11,7 +11,7 @@ class Home extends React.Component {
                         <h1 className="fade-in">Hi, my name is </h1>
                         <h3 className="header fade-in delay-short">William San</h3>
                         <h4 className="fade-in delay-med">
-                            I'm a software developer based on Toronto, Canada specializing in full-stack development
+                            I'm a software developer based in Toronto, Canada specializing in full-stack development
                         </h4>
                     </div>
                 </Container>
