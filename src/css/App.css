@@ -39,7 +39,8 @@ p {
 
 .header {
   font-size: 80px;
-  color: #ff9100;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .shadow {

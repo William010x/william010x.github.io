@@ -19,7 +19,7 @@ class AboutMe extends React.Component {
                         <div className="about-me">
                             <div>
                                 <p>
-                                    Hey, my name is William! I'm a <b>Computer Science</b> specialist in my final year at the <b>University of Toronto</b>.
+                                    Hey, my name is <b>William San</b>! I'm a <b>Computer Science</b> specialist in my final year at the <b>University of Toronto</b>.
                                 </p>
                                 <p>
                                     I love developing and designing software for the web, from simple landing pages to progressive web applications!

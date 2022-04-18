@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import TypeWriterEffect from 'react-typewriter-effect';
 import './css/Home.css';
 
 class Home extends React.Component {
@@ -8,8 +9,23 @@ class Home extends React.Component {
             <div id="home">
                 <Container>
                     <div className="intro">
-                        <h1 className="fade-in">Hi, my name is </h1>
-                        <h3 className="header fade-in delay-short">William San</h3>
+                        <div className="header">
+                            <TypeWriterEffect
+                                textStyle={{
+                                    fontSize: "80px",
+                                }}
+                                cursorColor="white"
+                                multiText={[
+                                    "Welcome",
+                                    "I'm William",
+                                    "Let's connect",
+                                ]}
+                                loop={true}
+                                multiTextLoop={true}
+                                multiTextDelay={3000}
+                                typeSpeed={70}
+                            />
+                        </div>
                         <h4 className="fade-in delay-med">
                             I'm a software developer based in Toronto, Canada specializing in full-stack development
                         </h4>
