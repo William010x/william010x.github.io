@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ee4a64ff.chunk.css",
-    "main.js": "/static/js/main.39ea5e8a.chunk.js",
-    "main.js.map": "/static/js/main.39ea5e8a.chunk.js.map",
+    "main.js": "/static/js/main.ca26d6d1.chunk.js",
+    "main.js.map": "/static/js/main.ca26d6d1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.100b64e4.js",
     "runtime-main.js.map": "/static/js/runtime-main.100b64e4.js.map",
     "static/js/2.9024253a.chunk.js": "/static/js/2.9024253a.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/lofi-radio-music.7c7b7bed.png": "/static/media/lofi-radio-music.7c7b7bed.png",
     "static/media/nox.aeeda29e.png": "/static/media/nox.aeeda29e.png",
     "static/media/paint.fd2530ff.gif": "/static/media/paint.fd2530ff.gif",
-    "static/media/photo.2632e579.png": "/static/media/photo.2632e579.png",
+    "static/media/photo.a190cefc.png": "/static/media/photo.a190cefc.png",
     "static/media/ping.34e50236.gif": "/static/media/ping.34e50236.gif",
     "static/media/projectile.1bc5b220.gif": "/static/media/projectile.1bc5b220.gif",
     "static/media/spikes.11ac9a34.gif": "/static/media/spikes.11ac9a34.gif",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.100b64e4.js",
     "static/js/2.9024253a.chunk.js",
     "static/css/main.ee4a64ff.chunk.css",
-    "static/js/main.39ea5e8a.chunk.js"
+    "static/js/main.ca26d6d1.chunk.js"
   ]
 }
