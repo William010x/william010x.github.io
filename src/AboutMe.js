@@ -27,7 +27,7 @@ class AboutMe extends React.Component {
                                     I am always excited to take on new projects and create software that provides the best user experience.
                                 </p>
                                 <p>
-                                    In my previous 16 month internship, I worked at Bayer as a <b>software developer</b>, building digital interfaces for Radiologists.
+                                    I am currently working as a <b>software engineer intern</b> at Apollo GraphQL, developing a commercial SaaS for modern graph-based application development. In my previous 16 month internship, I worked at Bayer as a <b>software developer</b>, building digital interfaces for Radiologists.
                                 </p>
                             </div>
                             <a href="https://www.linkedin.com/in/william-san" className="center" target="_blank" rel="noreferrer">
