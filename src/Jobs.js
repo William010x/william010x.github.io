@@ -4,6 +4,7 @@ import Job from './components/Job';
 import apollo from './images/apollo.png';
 import bayer from './images/bayer.png';
 import meta from './images/meta.png';
+import scotiabank from './images/scotiabank.png';
 import uoft from './images/uoft.png';
 import './css/About.css';
 
@@ -12,6 +13,16 @@ class Jobs extends React.Component {
         return(
                 <Container id="jobs">
                     <h2>Work Experience</h2>
+                    <Job
+                        image={scotiabank}
+                        title="Cloud Data Engineer"
+                        company="Scotiabank"
+                        date="Apr 2023 - Present"
+                        description={[
+                            "Developed Data Provisioning and Access Management app for the bank's data platform to streamline the data access process using Google Cloud Platform, Appsheet and BigQuery",
+                            "Restructured data models and optimized performance to improve runtime of app by 78%",
+                        ]}
+                    />
                     <Job
                         image={meta}
                         title="Software Engineer Intern"
