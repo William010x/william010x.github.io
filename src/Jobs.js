@@ -14,13 +14,26 @@ class Jobs extends React.Component {
                 <Container id="jobs">
                     <h2>Work Experience</h2>
                     <Job
+                        image={meta}
+                        title="Software Engineer"
+                        company="Meta"
+                        date="Feb 2024 - Present"
+                        description={[
+                            "Building scalable infrastructure solutions to improve developer experience, including full-stack tools to drive the success of multiple product teams, including Facebook, Instagram, WhatsApp, Messenger and Ads Manager",
+                            "Improving the performance, reliability and efficiency of some of the world's most popular applications",
+                            "Collaborate with various product teams to understand customer pain points and work on developing roadmaps and projects to enhance their experience",
+                            "Implementing innovative techniques to boost efficiency and the quality of performance signals",
+                        ]}
+                    />
+                    <Job
                         image={scotiabank}
                         title="Cloud Data Engineer"
                         company="Scotiabank"
-                        date="Apr 2023 - Present"
+                        date="Apr 2023 - Feb 2024"
                         description={[
-                            "Developed Data Provisioning and Access Management app for the bank's data platform to streamline the data access process using Google Cloud Platform, Appsheet and BigQuery",
-                            "Restructured data models and optimized performance to improve runtime of app by 78%",
+                            "Developed Data Provisioning and Access Management app for the bank’s data platform to streamline the data access process using Google Cloud Platform, Appsheet and BigQuery",
+                            "Restructured data models and optimized performance to improve runtime of app",
+                            "Designed and implemented column-level access control to mask sensitive data and restrict access to different user personas using Python in Google Cloud Functions and Terraform",
                         ]}
                     />
                     <Job

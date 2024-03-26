@@ -9,6 +9,11 @@ hr {
   border: 0;
   background-image: linear-gradient(to right, rgba(108, 117, 125, 0), rgba(108, 117, 125, 0.75), rgba(108, 117, 125, 0));
 }
+
+.headshot {
+  width: 270px;
+  height: 270px;
+}
   
 .logo {
   width: 100px;
